@@ -189,7 +189,7 @@ In [tidy data](https://www.jstatsoft.org/index.php/jss/article/view/v059i10/v59i
 
 In order to make the UCI HAR data tidy, the training subject, training activity, training feature, test subject, test activity and test feature tables were combined into a single table (see Data Processing section)
 
-Careful consideration was given as to whether it was appropriate to try to identify and split out feature components for each of the features since there is a lot of regularity in their structure (see Variables subsection below).
+Careful consideration was given as to whether it was appropriate to try to identify and split out feature components for each of the features since there is a lot of regularity in their structure (see Variables subsection).
 
 However, as Wickham points out in his [seminal article on Tidy Data](https://www.jstatsoft.org/index.php/jss/article/view/v059i10/v59i10.pdf), the distinction between observations and variables is problem specific and depends upon the question to be answered and the nature of the analysis to be performed.
 
