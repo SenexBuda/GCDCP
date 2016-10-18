@@ -14,7 +14,8 @@ The data processing was performed to make the data simpler and easier to use in 
 The following background information is quoted from [UCI Human Activity Recognition Using SmartPhones](https://archive.ics.uci.edu/ml/datasets/Human+Activity+Recognition+Using+Smartphones#):
 
         The experiments have been carried out with a group of 30 volunteers within an age bracket of 19-48 years. 
-        Each person performed six activities (WALKING, WALKING_UPSTAIRS, WALKING_DOWNSTAIRS, SITTING, STANDING, LAYING) 
+        Each person performed six activities 
+        (WALKING, WALKING_UPSTAIRS, WALKING_DOWNSTAIRS, SITTING, STANDING, LAYING) 
         wearing a smartphone (Samsung Galaxy S II) on the waist. 
         Using its embedded accelerometer and gyroscope, we captured 3-axial linear acceleration and 
         3-axial angular velocity at a constant rate of 50Hz. 
@@ -27,7 +28,8 @@ The following background information is quoted from [UCI Human Activity Recognit
         was separated using a Butterworth low-pass filter into body acceleration and gravity. 
         The gravitational force is assumed to have only low frequency components, 
         therefore a filter with 0.3 Hz cutoff frequency was used. 
-        From each window, a vector of features was obtained by calculating variables from the time and frequency domain.
+        From each window, a vector of features was obtained by calculating variables
+        from the time and frequency domain.
 
 The following additional details can be found in the *README.txt* file included in *UCI_HAR_DataSet.zip*:
 
@@ -82,10 +84,10 @@ Columns 3 to 68 are all numeric variables that have been normalized to be in the
  
  - *VectorQuantity* is the physical vector quantity being measured and has 4 possible values listed below:
  
-        - LinearAcceleration as measured by Smartphone Accelerometer
-        - LinearJerk derived from Smartphone Accelerometer measurements
-        - AngularVelocity as measured by Smartphone Gyroscope
-        - AngularJerk derived from SmartPhone Gyroscope measurements
+        - LinearAcceleration    as measured by Smartphone Accelerometer
+        - LinearJerk            derived from Smartphone Accelerometer measurements
+        - AngularVelocity       as measured by Smartphone Gyroscope
+        - AngularJerk           derived from SmartPhone Gyroscope measurements
  
  - *VectorProperty* is the specific property of the physical vector quantity and has 4 possible values:
  
