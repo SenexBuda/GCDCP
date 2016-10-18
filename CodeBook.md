@@ -20,7 +20,8 @@ The following background information is quoted from [UCI Human Activity Recognit
         The obtained dataset has been randomly partitioned into two sets, where 70% of the volunteers was selected for generating the training data and 30% the test data. 
         The sensor signals (accelerometer and gyroscope) were pre-processed by applying noise filters and then sampled in fixed-width sliding windows of 2.56 sec and 50% overlap (128 readings/window). 
         The sensor acceleration signal, which has gravitational and body motion components, was separated using a Butterworth low-pass filter into body acceleration and gravity. 
-        The gravitational force is assumed to have only low frequency components, therefore a filter with 0.3 Hz cutoff frequency was used. From each window, a vector of features was obtained by calculating variables from the time and frequency domain.
+        The gravitational force is assumed to have only low frequency components, therefore a filter with 0.3 Hz cutoff frequency was used. 
+        From each window, a vector of features was obtained by calculating variables from the time and frequency domain.
 
 The following additional details can be found in the *README.txt* file included in *UCI_HAR_DataSet.zip*:
 
@@ -59,11 +60,11 @@ Columns 3 to 68 are all numeric variables that have been normalized to be in the
  
  The names and meanings of these 66 variables all follow a common pattern explained below:
  
- * *Domain*.*AccelerationSignalComponent*.*VectorQuantity*.*VectorProperty*.*SummaryStatistic*
+*Domain*.*AccelerationSignalComponent*.*VectorQuantity*.*VectorProperty*.*SummaryStatistic*
  
  where:
  
-* *Domain* is the domain of measurement and has 2 possible values:
+ - *Domain* is the domain of measurement and has 2 possible values:
 
         - Time
         - Frequency
